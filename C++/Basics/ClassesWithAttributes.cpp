@@ -2,10 +2,11 @@
 using namespace std;
 
 class Student{
-    public:
+    private:
     string name; // instance variable
     int srn; // instance variable
-
+    
+    public:
     Student(string n, int s){
         name = n;
         srn = s;
